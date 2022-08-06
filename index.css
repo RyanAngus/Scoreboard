@@ -1,0 +1,272 @@
+
+
+
+body {
+    margin: 0;
+    background-image: url("image.jpg");
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    border-radius: 20px;
+    position: relative;
+    left: 260px;
+    top: 150px;
+    opacity: 90%;
+
+    
+    
+    
+}
+
+.h3home {
+    /* board-title-home */
+
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 85px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+
+}
+
+.h3guest {
+    /* board-title-home */
+
+
+position: absolute;
+width: 149px;
+height: 36px;
+left: 340px;
+top: 68px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 36px;
+/* identical to box height, or 90% */
+
+text-align: center;
+
+color: #EEEEEE;
+
+
+}
+
+.homedisplay {
+    /* home-score */
+
+
+position: absolute;
+width: 155px;
+height: 120px;
+left: 82px;
+top: 150px;
+background-color: #080001;
+color: white;
+
+}
+
+.awaydisplay {
+/* home-score */
+
+
+position: absolute;
+width: 155px;
+height: 120px;
+left: 337px;
+top: 150px;
+background-color: #080001;
+color: white;
+
+}
+
+#home-Score {
+    /* home-points-text */
+
+
+position: absolute;
+width: 117px;
+height: 120px;
+left: 15px;
+top: -70px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+;
+
+}
+
+#away-Score {
+     /* away-points-text */
+
+
+position: absolute;
+width: 117px;
+height: 120px;
+left: 15px;
+top: -70px;
+
+font-family: 'Cursed Timer ULiL';
+font-style: normal;
+font-weight: 400;
+font-size: 90px;
+line-height: 127px;
+/* or 141% */
+
+text-align: center;
+
+color: #F94F6D;
+
+}
+
+#button1 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 82px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+}
+
+#button2 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 134px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+
+}
+
+#button3 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 186px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+}
+
+#button4 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+}
+
+#button5 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 389px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+}
+
+#button6 {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 441px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+}
+
+#newbutton {
+    position: absolute;
+    width: 50px;
+    height: 45px;
+    left: 260px;
+    top: 271px;
+    font-family: 'Cursed Timer ULiL';
+    background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+}
+
+#periodDis {
+
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 260px;
+    top: 200px;
+    background-color: #080001;
+    color: #F94F6D;
+    font-family: "Cursed Timer ULiL";
+    font-size: 50px; 
+    text-align: center;
+
+
+}
+
+.periodText {
+    position: absolute;
+width: 82px;
+height: 45px;
+left: 245px;
+top: 125px;
+
+font-family: 'Verdana';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 36px;
+text-align: center;
+background-color: #1B244A;
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+
+}
+
