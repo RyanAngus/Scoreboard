@@ -1,4 +1,8 @@
 
+@font-face {
+    font-family: CursedTimer;
+    src: url(CursedTimer.ttf);
+}
 
 
 body {
@@ -114,7 +118,7 @@ height: 120px;
 left: 15px;
 top: -70px;
 
-font-family: 'Cursed Timer ULiL';
+font-family: 'CursedTimer';
 font-style: normal;
 font-weight: 400;
 font-size: 90px;
@@ -138,7 +142,7 @@ height: 120px;
 left: 15px;
 top: -70px;
 
-font-family: 'Cursed Timer ULiL';
+font-family: 'CursedTimer';
 font-style: normal;
 font-weight: 400;
 font-size: 90px;
@@ -245,15 +249,15 @@ color: #F94F6D;
     top: 200px;
     background-color: #080001;
     color: #F94F6D;
-    font-family: "Cursed Timer ULiL";
-    font-size: 50px; 
+    font-family: "CursedTimer";
+    font-size: 40px; 
     text-align: center;
 
 
 }
 
 .periodText {
-    position: absolute;
+position: absolute;
 width: 82px;
 height: 45px;
 left: 245px;
